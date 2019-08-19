@@ -1,0 +1,14 @@
+[{
+  "name": "Dagarin Thunderaxe",
+  "stats": {"str": 10,
+    "dex": 10,
+    "con": 10,
+    "wis": 10,
+    "int": 10,
+    "cha": 10
+  },
+  "skills": [
+      {"a": 1, "s": 1},
+      {"b": 1, "s": 0}
+    ]
+}]
