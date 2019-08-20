@@ -10,6 +10,7 @@ import { SessionComponent } from './session/session.component';
 import { CampaignComponent } from './campaign/campaign.component';
 import { AccountComponent } from './account/account.component';
 import { InformationComponent } from './information/information.component';
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { InformationComponent } from './information/information.component';
   imports: [
     AlertModule.forRoot(),
     BrowserModule,
+    FontAwesomeModule,
     AppRoutingModule
   ],
   providers: [],

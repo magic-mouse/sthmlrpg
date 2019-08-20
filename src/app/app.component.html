@@ -1,6 +1,9 @@
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="font-family: Bookinsanity, Tahoma, 'Times New Roman'" routerLink="/" routerLinkActive="active">Stockholm
-    D&D</a>
+  <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="font-family: Bookinsanity, Tahoma, 'Times New Roman'" routerLink="/" routerLinkActive="active">
+    <fa-icon [icon]="['fab', 'd-and-d']"></fa-icon>
+    <fa-icon [icon]="['fas', 'air-freshener']"></fa-icon>
+    Stockholm
+    <i class="fab fa-d-and-d"></i></a>
   <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
   <ul class="navbar-nav px-3">
     <li class="nav-item text-nowrap">
@@ -16,7 +19,7 @@
         <ul class="nav flex-column">
           <li class="nav-item">
             <a routerLink="/" routerLinkActive="active" class="nav-link">
-              <span data-feather="file-text"></span>
+              <i class="fas fa-hat-wizard"></i>
               Information
             </a>
           </li>
@@ -25,13 +28,13 @@
           </li>
           <li class="nav-item">
             <a routerLink="/player" routerLinkActive="active" class="nav-link">
-              <span data-feather="file-text"></span>
+              <i class="fas fa-dungeon"></i>
               Player info
             </a>
           </li>
           <li class="nav-item">
             <a routerLink="/character" routerLinkActive="active" class="nav-link">
-              <span data-feather="file-text"></span>
+              <i class="fas fa-scroll"></i>
               Characters
             </a>
           </li>
@@ -40,13 +43,13 @@
           </li>
           <li class="nav-item">
             <a routerLink="/session" routerLinkActive="active" class="nav-link">
-              <span data-feather="file-text"></span>
+              <i class="fas fa-dice-d6"></i>
               Session information
             </a>
           </li>
           <li class="nav-item">
             <a routerLink="/campaign" routerLinkActive="active" class="nav-link">
-              <span data-feather="file-text"></span>
+              <i class="fas fa-dice-d20"></i>
               Create/Join campaign
             </a>
           </li>
@@ -55,7 +58,7 @@
           </li>
           <li class="nav-item">
             <a routerLink="/account" routerLinkActive="active" class="nav-link">
-              <span data-feather="file-text"></span>
+              <i class="fas fa-dragon"></i>
               Account
             </a>
           </li>
