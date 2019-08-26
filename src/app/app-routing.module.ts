@@ -6,6 +6,7 @@ import {CharactersComponent} from "./characters/characters.component";
 import {SessionComponent} from "./session/session.component";
 import {CampaignComponent} from "./campaign/campaign.component";
 import {AccountComponent} from "./account/account.component";
+import {HomebrewComponent} from "./public/homebrew/homebrew.component";
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {'path': 'character', component: CharactersComponent},
   {'path': 'session', component: SessionComponent},
   {'path': 'campaign', component: CampaignComponent},
+  {'path': 'homebrew', component: HomebrewComponent},
   {'path': 'account', component: AccountComponent}
   ];
 

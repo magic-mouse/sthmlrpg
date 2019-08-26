@@ -1,0 +1,11 @@
+<div class="media text-muted pt-3" style="cursor: pointer;">
+<img *ngIf="path" [src]="path" style="height: 48px; width: 48px; margin-right: 10px;">
+  <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" style="padding-rig">
+    <strong class="d-block text-gray-dark">{{topTitle}}</strong>
+    <span *ngFor="let b of badges" class="badge badge-secondary">{{b}}</span>
+  </p>
+<div>
+  <!--<a href="#downloadFile"><img src="http://pathToImage" style="height: 48px; width: 48px; margin-left: 10px; margin-right: 15px;" class="fa-pull-right" /></a>-->
+  <a [href]="download" *ngIf="download" target="_blank"><i class="far fa-file-pdf fa-3x"></i></a>
+</div>
+</div>

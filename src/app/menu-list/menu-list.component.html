@@ -1,0 +1,16 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <!--<img class="mr-3" src="assets/Illo2.jpg" alt="" width="48" height="48">-->
+  <div class="lh-100">
+    <h6 class="mb-0 text-white lh-100">{{headline}}</h6>
+    <small class="text-white">{{description}}</small>
+  </div>
+</div>
+
+<div class="my-3 p-3 bg-white rounded shadow-sm">
+  <h6 class="border-bottom border-gray pb-2 mb-0">{{title}}</h6>
+
+  <app-menu-row *ngFor="let d of data" [path]="d.path" [topTitle]="d.name" [badges]="d.badges" [download]="d.download"></app-menu-row>
+  <small class="d-block text-right mt-3">
+    <a href="#">All updates</a>
+  </small>
+</div>

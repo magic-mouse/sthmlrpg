@@ -11,6 +11,10 @@ import { CampaignComponent } from './campaign/campaign.component';
 import { AccountComponent } from './account/account.component';
 import { InformationComponent } from './information/information.component';
 import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
+import { MenuBlockDirective } from './menu-block.directive';
+import { MenuListComponent } from './menu-list/menu-list.component';
+import { MenuRowComponent } from './menu-list/menu-row/menu-row.component';
+import { HomebrewComponent } from './public/homebrew/homebrew.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
     SessionComponent,
     CampaignComponent,
     AccountComponent,
-    InformationComponent
+    InformationComponent,
+    MenuBlockDirective,
+    MenuListComponent,
+    MenuRowComponent,
+    HomebrewComponent
   ],
   imports: [
     AlertModule.forRoot(),
