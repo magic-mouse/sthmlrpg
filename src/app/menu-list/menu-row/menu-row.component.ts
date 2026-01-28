@@ -1,6 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-menu-row',
   templateUrl: './menu-row.component.html',
   styleUrls: ['./menu-row.component.css']

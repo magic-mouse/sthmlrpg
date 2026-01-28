@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  standalone: false,
   selector: 'app-homebrew',
   templateUrl: './homebrew.component.html',
   styleUrls: ['./homebrew.component.css']
